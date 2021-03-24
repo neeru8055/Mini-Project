@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .container {
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(174, 145, 255);
+  }
+  
+  .form-container {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+  }
+  
+  #detail-container {
+    max-height: 15rem;
+    overflow-y: auto;
+    
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table td {
+    max-width: 3rem;
+    overflow: hidden;
+  }
